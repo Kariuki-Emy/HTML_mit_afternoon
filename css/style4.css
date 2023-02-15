@@ -1,0 +1,75 @@
+.fruits{
+    border: 2px solid #1E1D2B;
+    background: #A44058;
+    color: #E3BAB3;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+.FRUITS{ border: 2px solid #1E1D2B;
+    background: #A7B8A6;
+    color: #1E1D2B;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+.cars{ border: 2px solid #383431;
+    background: #AF94A4;
+    color: #95401c;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+
+}
+#City{
+    border: 2px double #AF94A4;
+    background: #1E1D2B;
+    color: #A44058;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+#school{
+    border: 5px solid darkslateblue;
+}  form{
+    text-align: center;
+    background: #AF94A4;
+    width: 60%;
+}
+label{
+    color: #A44058;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+input{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    background: transparent;
+}
+label,input{
+    display: block;
+}
+body{
+    background: #AF94A4;
+}
+h2{
+    color: white;
+}
+textarea{
+    color: #1E1D2B;
+    font-size: 30px;
+    font-family: "DejaVu Sans";
+}
+h1{
+    font-size: 20px;
+    font-family: "DejaVu Sans";
+}
+h6{
+    font-family: "DejaVu Sans";
+    font-size: 50px;
+}

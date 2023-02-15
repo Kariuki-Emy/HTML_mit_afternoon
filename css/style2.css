@@ -1,0 +1,32 @@
+th,td{
+    border: 2px solid #E6E6E6;
+    padding: 0px;
+    margin: 0px;
+    font-family: "DejaVu Sans";
+    color: #E6E6E6;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: #A44058;
+}
+h2{
+    font-size: 50;
+    text-align: center;
+    background: #1E1D2B;
+    color: #E3BAB3;
+}
+th{
+    font-size: 30px;
+    font-family: "DejaVu Sans";
+
+}
+td{
+    font-family: "Century Schoolbook L";
+    font-size: 20px;
+
+}
+body{
+    background: #1E1D2B
+;
+}

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style4.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>forms</title>
+</head>
+<body>
+<h6>HAVARD</h6>
+<h1>Application for Havard University</h1>
+<img src="images/harvard.png" alt="">
+<form action="list.html">
+    <label for="fname">First Name</label>
+    <input type="text"id="fname" placeholder="Your First Name"><br>
+    <label for="lname">Last Name</label>
+    <input type="text"id="lname" placeholder="Your Last Name" ><br>
+    <label for="email">Email Address</label>
+    <input type="email"id="email" placeholder="Your Email Address"><br>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender">
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender">
+    <label for="others">Others</label>
+    <input type="radio" id="others" name="gender"><br>
+    <label for="postalcode">Postal Code</label>
+    <input type="postalcode" id="postalcode" placeholder="Your Postal Code"><br>
+    <label for="dor">Date of Registration</label>
+    <input type="date"id="dor" placeholder="Your Date of Regristration"><br>
+    <label for="pass">Password</label>
+    <input type="password"id="pass" placeholder="Your password"><br>
+    <label for="course">Which course are you interested in</label>
+    <select name="Course" id="course">
+        <option value="Full">Fullstack</option>
+        <option value="JS">Javascript</option>
+        <option value="pyhton">Python</option>
+        <option value="kotlin">Kotlin</option>
+        <option value="cybersecurity">CyberSecurity</option>
+        <option value="datasecurity">Data Security</option>
+        <option value="webdevelopment">Web Development</option>
+    </select><br>
+
+</textarea> <br>
+    <label for="image">Upload Pic</label>
+    <input type="file"id="image" name="Image"><br>
+    <label for="color">Favorite color</label>
+    <input type="color"id="color" name="Favorite Color"><br>
+    <label for="bdaymonth">Birthday (month and year):</label>
+    <input type="month"id="bdaymonth" name="bdaymonth"><br>
+    <label for="phone">Enter your phone number:</label>
+  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}"><br>
+    <label for="age">Age</label>
+  <input type="number" id="age" name="Age" min="16" max="50"><br>
+    <label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile"><br>
+    <input type="image" src="images/hurucan%20evo.jpeg" alt="Submit" width="48" height="48"><br>
+    <input type="submit" value="Register"><br>
+    <textarea name="message" rows="1" cols="3">
+Thank you for the feedback!
+</form>
+
+</body>
+</body>
+</html>
